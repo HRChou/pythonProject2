@@ -1,0 +1,24 @@
+{
+  "test_getImgVerifyCode": [
+    {
+      "desc": "r为随机小数时获取图片验证码成功",
+      "type": "float",
+      "status_code": 200
+    },
+    {
+      "desc": "r为随机整数时获取图片验证码成功",
+      "type": "int",
+      "status_code": 200
+    },
+    {
+      "desc": "r为随机字母时获取图片验证码失败",
+      "type": "char",
+      "status_code": 400
+    },
+    {
+      "desc": "r为空时获取图片验证码失败",
+      "type": "null",
+      "status_code": 404
+    }
+  ]
+}

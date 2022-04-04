@@ -1,0 +1,40 @@
+{
+  "getPhoneCode": [
+    {
+      "desc": "所有参数填写正确，获取手机验证码成功",
+      "phone": "15821033333",
+      "imgVerifyCode": "8888",
+      "type": "reg",
+      "status_code": 200,
+      "status": 200,
+      "description": "短信发送成功"
+    },
+    {
+      "desc": "所有必填参数填写正确，获取手机验证码成功",
+      "phone": "15821033334",
+      "imgVerifyCode": "8888",
+      "type": "reg",
+      "status_code": 200,
+      "status": 200,
+      "description": "短信发送成功"
+    },
+    {
+      "desc": "图片验证码错误，获取手机验证码失败",
+      "phone": "15821033335",
+      "imgVerifyCode": "6666",
+      "type": "reg",
+      "status_code": 200,
+      "status": 100,
+      "description": "图片验证码错误"
+    },
+    {
+      "desc": "验证码为空，获取手机验证码失败",
+      "phone": "15821033335",
+      "imgVerifyCode": "6666",
+      "type": "reg",
+      "status_code": 200,
+      "status": 100,
+      "description": "图片验证码错误"
+    }
+  ]
+}
