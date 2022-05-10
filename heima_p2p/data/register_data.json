@@ -1,0 +1,74 @@
+[
+  {
+    "desc": "所有参数填写正确，注册成功",
+    "phone": "15821030731",
+    "password": "abc123456",
+    "verifycode": "8888",
+    "phone_code": "666666",
+    "dy_server": "on",
+    "invite_phone": "15116248321",
+    "status_code": 200,
+    "status": 200,
+    "description": "注册成功"
+  },
+    {
+    "desc": "所有必填参数填写正确，注册成功",
+    "phone": "15821030732",
+    "password": "abc123456",
+    "verifycode": "8888",
+    "phone_code": "666666",
+    "dy_server": "on",
+     "invite_phone": "",
+    "status_code": 200,
+    "status": 200,
+    "description": "注册成功"
+  },
+  {
+    "desc": "图片验证码错误，注册失败",
+    "phone": "15821030743",
+    "password": "abc123456",
+    "verifycode": "8866",
+    "phone_code": "666666",
+    "dy_server": "on",
+    "invite_phone": "",
+    "status_code": 200,
+    "status": 100,
+    "description": "验证码错误!"
+  },
+  {
+    "desc": "短信验证码错误，注册失败",
+    "phone": "15821030743",
+    "password": "abc123456",
+    "verifycode": "8888",
+    "phone_code": "666688",
+    "dy_server": "on",
+    "invite_phone": "",
+    "status_code": 200,
+    "status": 100,
+    "description": "验证码错误"
+  },
+  {
+    "desc": "手机已存在，注册失败",
+    "phone": "15821030741",
+    "password": "abc123456",
+    "verifycode": "8888",
+    "phone_code": "666666",
+    "dy_server": "on",
+    "invite_phone": "",
+    "status_code": 200,
+    "status": 100,
+    "description": "手机已存在!"
+  },
+  {
+    "desc": "推荐人不存在，注册失败",
+    "phone": "15821030741",
+    "password": "abc123456",
+    "verifycode": "8888",
+    "phone_code": "666666",
+    "dy_server": "on",
+    "invite_phone": "15116248865",
+    "status_code": 200,
+    "status": 100,
+    "description": "推荐人不存在"
+  }
+]

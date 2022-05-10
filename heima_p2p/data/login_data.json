@@ -1,0 +1,35 @@
+[
+    {
+        "desc": "账号密码正确，登录成功",
+        "keywords":"15116248321",
+        "password": "abc123456",
+        "status_code": 200,
+        "status": 200,
+        "description": "登录成功"
+    },
+    {
+        "desc": "手机号未注册，登录失败",
+        "keywords":"1511624884",
+        "password": "abc123456",
+        "status_code": 200,
+        "status": 100,
+        "description": "用户不存在"
+    },
+    {
+        "desc": "手机号为空，登录失败",
+        "keywords":"",
+        "password": "abc123456",
+        "status_code": 200,
+        "status": 100,
+        "description": "用户名不能为空"
+    },
+    {
+        "desc": "密码为空，登录失败",
+        "keywords":"15116248338",
+        "password": "",
+        "status_code": 200,
+        "status": 100,
+        "description": "密码不能为空"
+    }
+
+]
